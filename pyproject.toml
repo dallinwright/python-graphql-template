@@ -1,0 +1,21 @@
+[project]
+name = "python-graphql-template"
+dynamic = ["version"]
+readme = "README.md"
+description = "Python GraphQL Template"
+keywords = ["python", "graphql", "template"]
+license = "MIT"
+
+
+[build-system]
+requires = [
+    "setuptools >= 61.0"
+]
+build-backend = "setuptools.build_meta"
+
+maintainers = [
+  {name = "Firstname Lastname", email = "you@domain.com"}
+]
+
+#[project.scripts]
+#spam-cli = "spam:main_cli"
